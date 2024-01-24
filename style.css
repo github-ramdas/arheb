@@ -1,0 +1,33 @@
+.fields{
+  display: flex;
+  column-gap: 70px;
+  margin: 100px;
+}
+
+.fields textarea, #hebrewInput{
+  font-size: 20px;
+  padding:20px;
+  width: 100%!important;
+  border: 1px solid black;
+  min-height: 100px;
+
+}
+
+#hebrewInput{
+  height: auto;
+
+}
+
+.fields div{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+}
+.fields label{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+body {
+  direction: rtl;
+}
