@@ -1,5 +1,5 @@
 // Copyright arheb, 2024. Licenced under the GPL, version 2 or later.
-// version 1.1.0
+// version 1.1.1
 
 document.addEventListener('DOMContentLoaded', () => {
 	const arabicInput = document.getElementById('arabicInput');
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		"َ": "ַ",  // Fatha to Patah
 		"ِ": "ִ",  // Kasra to Hiriq
 		"ُ": "ֻ",  // Damma to Qubuts
-		"ً": "ן",   // Tanwin Fath - no direct equivalent in Niqqud
+	//	"ً": "ן",   // Tanwin Fath - no direct equivalent in Niqqud
 		"ٍ": "",   // Tanwin Kasr - no direct equivalent in Niqqud
 		"ٌ": "",   // Tanwin Damm - no direct equivalent in Niqqud
 		"ْ":"ְ",  // Sukun to Shva (approximate)
