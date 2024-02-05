@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 	const arabicInput = document.getElementById('arabicInput');
-	const hebrewInput = document.getElementById('hebrewInput');
+	const hebrewOutputNiquud = document.getElementById('hebrewOutputNiqqud');
 
 	const mapArabicToHebrew = {
 		ا: 'א', // Alif to Aleph
@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		"٪": "%",   // Arabic Percent Sign to Hebrew Percent Sign
 		"“": "\"",  // Opening Double Quotation Mark
 		"”": "\"",  // Closing Double Quotation Mark
-		"‘": "'",   // Opening Single Quotation Mark
-		"’": "'",   // Closing Single Quotation Mark
+	//	"‘": "'",   // Opening Single Quotation Mark
+	//	"'": "'",   // Closing Single Quotation Mark
 			
 		"٠": "0", // 0
 		"١": "1", // 1
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 	const updateOtherInputs = (sourceInput) => {    
-		hebrewInput.textContent = convertText( sourceInput.value );
+		hebrewOutputNiqqud.textContent = convertText( sourceInput.value );
 	};
 
 	arabicInput.addEventListener('input', () => updateOtherInputs(arabicInput));
