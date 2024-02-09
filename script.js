@@ -7,13 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const mapArabicToHebrew = {
 		ا: 'א', // Alif to Aleph
-		ﻻ: "לא", // La to la
+		ﻻ: "לא", // La to La
+    إ: "אִ", // Alif with lower hamza to Alef with Hiriq
 		ب: 'ב', // Ba to Bet
 		ت: 'ת', // Ta to Tav
-		ث: "ת'", // Tha to Sin
-		ج: "ג'", // Jim to Gimel
+		ث: "ת׳", // Tha to Sin
+		ج: "ג׳", // Jim to Gimel
 		ح: "ח", // Ha to Het
-		خ: "ח'", // Kha to Kaf with Dagesh
+		خ: "ח׳", // Kha to Kaf with Dagesh
 		د: 'ד', // Dal to Dalet
 		ذ: "ד'", // Dhal to Dalet with Dagesh
 		ر: 'ר', // Ra to Resh
@@ -21,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		س: 'ס', // Seen to Samekh
 		ش: 'ש', // Sheen to Shin
 		ص: 'צ', // Sad to Tsadi
-		ض: "צ'", // Dad to Tsadi with Geresh
+		ض: "צ׳", // Dad to Tsadi with Geresh
 		ط: 'ט', // Ta to Tet
-		ظ: "ט'", // Dha to Tet with Geresh
+		ظ: "ט׳", // Dha to Tet with Geresh
 		ع: 'ע', // Ain to Ayin
-		غ: "ע'", // Ghayn to Ayin with Geresh
+		غ: "ע׳", // Ghayn to Ayin with Geresh
 		ف: 'פ', // Fa to Pe
 		ق: "ק", // Qaf to Kuf
 		ك: 'כ', // Kaf to Kaf
@@ -36,9 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		و: 'ו', // Waw to Vav
 		ي: 'י', // Ya to Yod
 		ى: "א", // ʾalif maqṣūrah to Aleph
-		"ء": "א'", //
+		"ء": "א׳", //
 		أ: "א", //
-		إ: "א", //
+	//	إ: "א", //
 		ؤ: "א", // 
 		ئ: "א", //
 		ة : "הֿ", // tāʼ marbūṭa to He with upper line    
